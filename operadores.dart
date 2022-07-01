@@ -42,4 +42,23 @@ void main() {
   print(game is bool);
   print(version is! double);
   print(value is int);
+
+  //++ utilizado para incrementar 1 a variável
+  //-- utilizado para decrementar 1
+
+  int valor = 14;
+  valor++;
+  valor--;
+  print(
+      valor++); //Aqui o incremento não dá certo pois primeiro é printado o valor
+  print(
+      ++valor); //Já aqui funciona pois primeiro incrementa para depois printar o valor
+
+  //muito usado no for
+  for (int index = 0; index < 5; index++) {
+    print(index);
+  }
+  for (int valorzin = 10; valorzin >= 5; valorzin--) {
+    print(valorzin);
+  }
 }
